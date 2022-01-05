@@ -1,0 +1,34 @@
+.calculator-grid > button {
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.75);
+    border: 1px solid white;
+    outline: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: white;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(to right, #00aaff, #00ff6c);
+}
+
+.output {
+    background-color: rgba(0, 0, 0, 0.9);
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+.output #previousOperand {
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 1.57rem;
+}
+
+.output #currentOperand {
+    color: white;
+    font-size: 2.5rem;
+}
